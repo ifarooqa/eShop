@@ -1,0 +1,18 @@
+.star {
+  color: gold;
+}
+
+.half-filled {
+  position: relative;
+  overflow: hidden;
+}
+
+.half-filled::before {
+  content: '\f006';
+  font-family: 'bootstrap-icons';
+  position: absolute;
+  left: 0;
+  width: 50%;
+  color: gold;
+  overflow: hidden;
+}

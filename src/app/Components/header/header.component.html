@@ -20,7 +20,7 @@
       <div class="col-2 bg-light">
         <nav class="navbar navbar-light bg-light">
           <div class="container justify-content-center">
-            <a class="navbar-brand" href="#">
+            <a class="navbar-brand" routerLink="/home">
               <img src="../../assets/eShop.png" alt="eShop Logo" width="100" />
             </a>
           </div>
@@ -46,32 +46,6 @@
     </div>
 
     <!-- Columns start at 50% wide on mobile and bump up to 33.3% wide on desktop -->
-    <div class="row py-3 border-top border-secondary border-1">
-      <div class="col-12">
-        <ul class="nav justify-content-center g-2 fs-5">
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Shop</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Weekly Deals</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Bundles</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Attars</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">All Products</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Contact</a>
-          </li>
-          <!-- <li class="nav-item">
-                      <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-                    </li> -->
-        </ul>
-      </div>
-    </div>
+    <app-quick-filter></app-quick-filter>
   </div>
 </div>

@@ -1,0 +1,11 @@
+@if (products.length > 0) {
+<div class="container my-5 d-flex">
+  @for (product of products; track product.id) {
+  <app-product-card [product]="product"></app-product-card>
+  }
+</div>
+} @else {
+<div class="container my-5 d-flex justify-content-center">
+  <p class="fw-bold">No product found.</p>
+</div>
+}
