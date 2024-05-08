@@ -7,6 +7,7 @@ import { BundlesPageComponent } from './Components/bundles-page/bundles-page.com
 import { AllProductsComponent } from './Components/all-products/all-products.component';
 import { ContactUsComponent } from './Components/contact-us/contact-us.component';
 import { SignupComponent } from './Components/signup/signup.component';
+import { LoginComponent } from './Components/login/login.component';
 
 export const routes: Routes = [
   // { path: '', redirectTo: 'home', pathMatch: 'full' },
@@ -19,4 +20,5 @@ export const routes: Routes = [
   { path: 'allProducts', component: AllProductsComponent, title: 'Store | All Products', },
   { path: 'contactUs', component: ContactUsComponent, title: 'Contact Us', },
   { path: 'signUp', component: SignupComponent, title: 'Sign Up Please', },
+  { path: 'login', component: LoginComponent, title: 'Login here Please', },
 ];
